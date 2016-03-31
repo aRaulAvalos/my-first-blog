@@ -1,0 +1,15 @@
+python3 manage.py makemigrations blog
+
+python manage.py migrate
+
+python manage.py migrate blog
+
+python3 manage.py runserver  //corre el servidor
+
+python3 manage.py createsuperuser //crea un usuario
+
+
+/* 
+	rictor@cuhrt.com
+	@rctorr
+	
