@@ -9,6 +9,38 @@ python3 manage.py runserver  //corre el servidor
 python3 manage.py createsuperuser //crea un usuario
 
 
+//comandos git "subir un repositorio a tu cuenta"
+
+git clone https://github.com/mikemancera12/laravel-project.git para clonar un repositorio de la nube 
+
+git --version //checa la version de git
+
+git pull //actualiza la carpeta en caso de que sufra modificaciones
+
+git init //inicializa el repositorio en la computadora en el archivo que nos ubicamos 
+
+git status // no dice el estado del repositorio
+
+git config user.name "aRaul" // damos un nombre de usuario interno en git
+
+git config user.email araulavalos@gmail.com //configura el email en git
+
+git add -A . //agrega las actualizaciones el repositorio de forma local
+
+git commit -m "Inicializando el repo" //hacer un comentario de las actualizaciones que se hacen
+
+git remote add origin https://github.com/aRaulAvalos/my-first-blog.git   //enlaza el repositorio local con el de la cuanta github (oringin = el nombre del enlace)
+
+git pull origin master  //actualiza el enlace del repositorio en la rama master
+
+git push -u origin master //coneta para subir los cambios realizados internamente al repositorio de github
+
+aRaul.pythonanywhere.com.
+
+
+
+
+
 /* 
 	rictor@cuhrt.com
 	@rctorr
